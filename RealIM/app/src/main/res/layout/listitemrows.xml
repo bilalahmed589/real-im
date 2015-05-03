@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/listUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textSize="30px" >
+    </TextView>
+
+    <TextView android:textColor="#000000"
+
+        android:id="@+id/listMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:textSize="30px" >
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/listImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="4px"
+        >
+    </ImageView>
+
+
+
+   </LinearLayout>
